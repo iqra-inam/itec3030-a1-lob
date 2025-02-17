@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="ca.yorku.cmg.lob.exchange.ExchangeTest" time="0.155" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\iqrai\Documents\itec3030-a1-lob\target\test-classes;C:\Users\iqrai\Documents\itec3030-a1-lob\target\classes;C:\Users\iqrai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\iqrai\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\iqrai\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\iqrai\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\iqrai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\iqrai\Documents\itec3030-a1-lob\bin\lib\core-0.0.1-SNAPSHOT.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\iqrai\AppData\Local\Temp\surefire2430060895637289399\surefirebooter-20250212200937359_3.jar C:\Users\iqrai\AppData\Local\Temp\surefire2430060895637289399 2025-02-12T20-09-37_055-jvmRun1 surefire-20250212200937359_1tmp surefire_0-20250212200937359_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\iqrai\Documents\itec3030-a1-lob\target\test-classes;C:\Users\iqrai\Documents\itec3030-a1-lob\target\classes;C:\Users\iqrai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\iqrai\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\iqrai\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\iqrai\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\iqrai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\iqrai\Documents\itec3030-a1-lob\bin\lib\core-0.0.1-SNAPSHOT.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\iqrai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\iqrai\Documents\itec3030-a1-lob"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\iqrai\AppData\Local\Temp\surefire2430060895637289399\surefirebooter-20250212200937359_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="iqrai"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\iqrai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\iqrai\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\iqrai\Documents\itec3030-a1-lob"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\iqrai\OneDrive\Desktop\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\iqrai\AppData\Local\Microsoft\WindowsApps;C:\Users\iqrai\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testSubmitOrder" classname="ca.yorku.cmg.lob.exchange.ExchangeTest" time="0.104">
+    <failure message="expected: &lt;[  3  MSFT   880.77         1       230     23]&#10;[  7  MSFT   914.54        27      1250    125]&#10;[  8  GOOG   249.41        23       870     87]&#10;[  6  GOOG   253.95        19       290     29]&#10;[  4  GOOG   267.21        21      1090    109]&#10;[  3  GOOG   278.70         5       160     16]&#10;[  7  GOOG   351.53        49       450     45]&#10;[  4  META  1011.28        26       960     96]&#10;[  1  META  1061.73        26       500     50]&#10;[  2  META  1070.07        45       350     35]&#10;[  5  META  1074.56        20       840     84]&#10;[  1  NVDA   200.80        13      1150    115]&#10;[  8  NVDA   265.12         1       340     34]&#10;[  2  NVDA   287.82        27      1220    122]&#10;[  2  AAPL   273.57        14      1040    104]&#10;[  8  AAPL   496.14        22       540     54]&#10;[  7  AAPL   555.54        18       330     33]&#10;[  3  TSLA   722.30        38        30      3]&#10;[  5  AMZN   335.44         7      1130    113]&#10;&gt; but was: &lt;[  3  MSFT   880.77        14       230     23]&#10;[  7  MSFT   914.54        27      1250    125]&#10;[  8  GOOG   249.41        23       870     87]&#10;[  6  GOOG   253.95        19       290     29]&#10;[  4  GOOG   267.21        21      1090    109]&#10;[  3  GOOG   278.70         5       160     16]&#10;[  7  GOOG   351.53        49       450     45]&#10;[  2  GOOG   455.82        20       470     47]&#10;[  4  META  1011.28        26       960     96]&#10;[  1  META  1061.73        26       500     50]&#10;[  2  META  1070.07        45       350     35]&#10;[  5  META  1074.56        20       840     84]&#10;[  4  NVDA   187.27        36      1230    123]&#10;[  1  NVDA   200.80        13      1150    115]&#10;[  8  NVDA   265.12         1       340     34]&#10;[  2  NVDA   287.82        27      1220    122]&#10;[  2  AAPL   273.57        14      1040    104]&#10;[  5  AAPL   458.30        47      1120    112]&#10;[  6  AAPL   464.60        10       900     90]&#10;[  8  AAPL   496.14        49       540     54]&#10;[  7  AAPL   555.54        18       330     33]&#10;[  7  TSLA   657.61        27      1190    119]&#10;[  3  TSLA   722.30        38        30      3]&#10;[  7  AVGO   435.33        18      1110    111]&#10;[  5  AMZN   335.44         7      1130    113]&#10;[  3  AMZN   443.67        47       790     79]&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+expected: <[  3  MSFT   880.77         1       230     23]
+[  7  MSFT   914.54        27      1250    125]
+[  8  GOOG   249.41        23       870     87]
+[  6  GOOG   253.95        19       290     29]
+[  4  GOOG   267.21        21      1090    109]
+[  3  GOOG   278.70         5       160     16]
+[  7  GOOG   351.53        49       450     45]
+[  4  META  1011.28        26       960     96]
+[  1  META  1061.73        26       500     50]
+[  2  META  1070.07        45       350     35]
+[  5  META  1074.56        20       840     84]
+[  1  NVDA   200.80        13      1150    115]
+[  8  NVDA   265.12         1       340     34]
+[  2  NVDA   287.82        27      1220    122]
+[  2  AAPL   273.57        14      1040    104]
+[  8  AAPL   496.14        22       540     54]
+[  7  AAPL   555.54        18       330     33]
+[  3  TSLA   722.30        38        30      3]
+[  5  AMZN   335.44         7      1130    113]
+> but was: <[  3  MSFT   880.77        14       230     23]
+[  7  MSFT   914.54        27      1250    125]
+[  8  GOOG   249.41        23       870     87]
+[  6  GOOG   253.95        19       290     29]
+[  4  GOOG   267.21        21      1090    109]
+[  3  GOOG   278.70         5       160     16]
+[  7  GOOG   351.53        49       450     45]
+[  2  GOOG   455.82        20       470     47]
+[  4  META  1011.28        26       960     96]
+[  1  META  1061.73        26       500     50]
+[  2  META  1070.07        45       350     35]
+[  5  META  1074.56        20       840     84]
+[  4  NVDA   187.27        36      1230    123]
+[  1  NVDA   200.80        13      1150    115]
+[  8  NVDA   265.12         1       340     34]
+[  2  NVDA   287.82        27      1220    122]
+[  2  AAPL   273.57        14      1040    104]
+[  5  AAPL   458.30        47      1120    112]
+[  6  AAPL   464.60        10       900     90]
+[  8  AAPL   496.14        49       540     54]
+[  7  AAPL   555.54        18       330     33]
+[  7  TSLA   657.61        27      1190    119]
+[  3  TSLA   722.30        38        30      3]
+[  7  AVGO   435.33        18      1110    111]
+[  5  AMZN   335.44         7      1130    113]
+[  3  AMZN   443.67        47       790     79]
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at ca.yorku.cmg.lob.exchange.ExchangeTest.testSubmitOrder(ExchangeTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-err><![CDATA[Order validation: buyer with ID 24 does not have enough balance: has $14,570.32 and tries to buy for $28,968.30
+Order validation: seller with ID 47 not enough shares of GOOG: has 6 and tries to sell 20
+Order validation: seller with ID 63 not enough shares of TSLA: has 6 and tries to sell 31
+Order validation: seller with ID 72 not enough shares of MSFT: has 16 and tries to sell 31
+Order validation: seller with ID 79 not enough shares of AMZN: has 18 and tries to sell 47
+Order validation: seller with ID 80 not enough shares of AVGO: has 10 and tries to sell 24
+Order validation: seller with ID 90 not enough shares of AAPL: has 17 and tries to sell 37
+Order validation: seller with ID 111 not enough shares of AVGO: has 10 and tries to sell 18
+Order validation: seller with ID 112 not enough shares of AAPL: has 36 and tries to sell 47
+Order validation: seller with ID 119 not enough shares of TSLA: has 5 and tries to sell 45
+Order validation: seller with ID 121 not enough shares of AMZN: has 20 and tries to sell 44
+Order validation: seller with ID 123 not enough shares of NVDA: has 11 and tries to sell 36
+]]></system-err>
+  </testcase>
+</testsuite>
